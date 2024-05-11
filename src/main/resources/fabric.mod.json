@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "shenanigans",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Shenanigans",
+  "description": "Mod by Myoun",
   "authors": [
-    "Me!"
+    "myoun"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/myoun/shenanigans"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
@@ -21,12 +20,12 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "net.fabricmc.example.ExampleMod"
+        "value": "app.myoun.shenanigans.ShenanigansMod"
       }
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "shenanigans.mixins.json"
   ],
 
   "depends": {
